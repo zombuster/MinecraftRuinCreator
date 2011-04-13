@@ -19,7 +19,7 @@ public class Apl {
 		template = new RuinTemplate(8,8,8);
 		JFrame frame = new JFrame("Ruin Creation Tool");
 		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-		
+		System.out.println("lol");
 		
 		layerPanel = new LayerPanel(template);
 		template.addObserver(layerPanel);
