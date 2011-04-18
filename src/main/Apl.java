@@ -17,7 +17,7 @@ public class Apl {
 
 	public void run() {
 		template = new RuinTemplate(8,8,8);
-		JFrame frame = new JFrame("Ruin Creation Tool");
+		JFrame frame = new JFrame("Ruin Editor");
 		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		System.out.println("lol");
 		
